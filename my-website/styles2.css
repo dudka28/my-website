@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(to right, #0a0b16, #080744); /* Пример градиентного фона */
+    /* Или вы можете использовать один из других методов */
+    /* background-color: #f0f8ff; */
+    /* background-image: url('images/background.jpg'); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    color: white; /* Цвет текста для контраста */
+}
+
+h1, button {
+    text-align: center;
+    margin-top: 20%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

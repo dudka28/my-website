@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Photos</title>
+    <link rel="stylesheet" href="styles2.css">
+    <style>
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .image {
+            max-width: 100%;
+            border: 2px solid #000;
+        }
+
+        .back-button {
+            margin-top: 20px;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h2>My Photos</h2>
+    <div class="grid-container">
+        <img class="image" src="image/photo_2024-07-22_18-46-18.jpg" alt="Image 1">
+        <img class="image" src="images/your-image2.jpg" alt="Image 2">
+        <img class="image" src="images/your-image3.jpg" alt="Image 3">
+        <!-- Добавьте больше изображений по мере необходимости -->
+    </div>
+    <a href="index.html" class="back-button">Back to Main Page</a>
+</body>
+</html>

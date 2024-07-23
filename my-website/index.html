@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple HTML Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1> мой сайтик!</h1>
+        <header>
+            <body>
+                
+                <button onclick="location.href='photos.html'">My Photos</button>
+            </body>
+            
+                
+        </header>
+        
+    <main>
+        <section>
+            <h2>Watch This Video</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PDJLvF1dUek?si=8UISPBdoscGlLY-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+           </iframe>
+        </section>           
+           
+    </main>
+    <script>
+        document.getElementById('popupButton').addEventListener('click', function() {
+            document.getElementById('popup').style.display = 'block';
+        });
+        
+        document.getElementById('closePopup').addEventListener('click', function() {
+            document.getElementById('popup').style.display = 'none';
+        });
+    </script>
+    <footer>
+        <p>&copy; 2024 My HTML Site</p>
+    </footer>
+  
+</body>
+</html>
